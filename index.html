@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Generator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Background Generator</h1>
+    <p>click the below button to generate random background colors</p>
+    <button>click</button>
+    <p id="color"></p>
+    
+    <h2>Or use slider to choose different combination of red,blue,green</h2>
+    <label for="red-color-range">Red</label><span id="red"></span>
+    <input type="range" min="0" max="255" value="0" class="slider" id="red-color-range">
+    <label for="blue-color-range">Blue</label><span id="blue"></span>
+    <input type="range" min="0" max="255" value="0" class="slider" id="blue-color-range">
+    <label for="green-color-range">Green</label><span id="green"></span>
+    <input type="range" min="0" max="255" value="0" class="slider" id="green-color-range">
+    <div>
+    <p id="rgb"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

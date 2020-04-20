@@ -1,0 +1,17 @@
+body{
+    text-align:center;
+}
+span{
+    padding:10px;
+    background-color: white;
+    border-radius: 150%;
+    margin:5px;
+    border:2px solid black;
+}
+#rgb{
+    color:white;
+}
+div{
+    background-color: black;
+    padding-bottom:10px;
+}
